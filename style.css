@@ -1,4 +1,382 @@
-html {
-  height: 100%;
-  width: 100%;
+body {
+  color: wheat;
+  background-color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  background-image: url("images/bg2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%;
+  border: 2px solid;
+}
+
+/* header{
+  display: block;
+} */
+
+.left {
+  font-size: large;
+  display: inline;
+  position: absolute;
+  width: 49%;
+  float: left;
+  padding: 0px 0px;
+
+}
+
+.left img {
+  width: 50px;
+  height: 50px;
+}
+
+.mid {
+  float: right;
+  display: block;
+  width: 49%;
+}
+
+.navbar {
+
+  border-radius: 20px;
+  color: white;
+  background-color: #121111;
+
+  line-height: 40px;
+  font-weight: bolder;
+
+}
+
+.navbar li {
+
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+
+}
+
+.navbar li a {
+
+  /* color: black; */
+  text-decoration: none;
+  padding: 24px 28px;
+  color: wheat;
+}
+
+
+.navbar li a:active {
+  text-decoration: underline;
+
+}
+
+
+.navbar li a:visited {
+  color: beige;
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+  color: #5d5850;
+}
+
+
+/* home page container */
+.container {
+
+  color: #121111;
+  background-color: white;
+  display: inline-flex;
+  margin: 100px 80px;
+  padding: 25px;
+  width: 83%;
+  /* border-radius: 28px; */
+}
+
+
+
+
+.icons a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 20px;
+  /* display: inline-block; */
+}
+
+/* About Us page container */
+.container1 {
+
+
+  background-color: rgb(227, 221, 213);
+
+  border: 2px solid rgb(20, 18, 18);
+  margin: 100px 80px;
+
+
+  padding: 25px;
+  width: 83%;
+  border-radius: 28px;
+}
+
+.container .icons {
+  align-items: center;
+  /* margin-left:40px; */
+  margin-top: 50px;
+}
+
+.container .icons img {
+  height: 100px;
+  width: 300px;
+
+}
+
+
+
+#firstpara img:hover {
+  opacity: 0.8;
+
+}
+
+
+
+
+.container img {
+  /* border: 2px solid black; */
+  float: right;
+  margin: 20px;
+  margin-left: 15em;
+  height: 400px;
+  width: 400px;
+  /* border-radius: 2%; */
+
+}
+
+
+/* Hobbies  page css */
+#firstpara1 {
+  border-radius: 15px;
+  color: aliceblue;
+  background-color: #121111;
+  display: flex;
+
+}
+
+#secondpara1 {
+  border-radius: 15px;
+  color: rgb(1, 8, 14);
+  background-color: #8f7272;
+  display: flex;
+
+}
+
+.hobby1 {
+
+  margin: 6em;
+  padding: 20px;
+}
+
+.hobby {
+  padding-left: 20px;
+}
+
+/* CSS rules that I haven't seen in class but discovered myself while searching for the solution of a bug */
+.hobby:hover {
+  opacity: 0.5;
+
+}
+
+#thirdpara1 {
+  border-radius: 15px;
+  color: aliceblue;
+  background-color: #121111;
+  display: flex;
+
+}
+
+#fourthpara1 {
+  border-radius: 15px;
+  color: rgb(1, 8, 14);
+  background-color: #8f7272;
+  display: flex;
+}
+
+.container1 h2 {
+  text-align: center;
+}
+
+/* .hobby{
+
+} */
+
+
+.container h1,
+h2 {
+  text-align: center;
+}
+
+#aboutUs {
+  text-align: center;
+  padding: 30px;
+  margin-top: 50px;
+  margin: 120px 80px;
+  color: aliceblue;
+  display: block;
+  /* box-sizing: border-box; */
+  background-color: black;
+  /* border:2px solid; */
+
+}
+
+#aboutUs img {
+
+
+  height: 400px;
+  width: 300px;
+  margin: 15px;
+  border-radius: 12%;
+
+}
+
+/* #secondpara img{ 
+  height: 240px;
+  width: 280px;
+
+} */
+
+/* form {
+
+  border: 2px solid white;
+  margin: 106px 80px;
+  padding: 75px;
+  width: 33%;
+  border-radius: 28px;
+}
+
+.form-group input {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  display: block;
+  width: 408px;
+  padding: .1px;
+  border: 2px solid black;
+  margin: 11px auto;
+  font-size: 25px;
+  border-radius: 8px;
+}
+
+.form button {
+  background-color: #D2B48C;
+  border-radius: 15px;
+  display: block;
+  width: 74%;
+  font-size: 25px;
+  margin: 20px auto;
+}
+
+.form h1 {
+  color: rgb(48, 39, 27);
+  display: inline;
+  margin: 5px 30px;
+  text-align: center;
+} */
+
+#footer {
+  color: black;
+  background-color: #eae9e8;
+  font: 0.60em;
+  margin-top: 50px;
+  font-style: italic;
+  text-align: center;
+  padding: 1em;
+  border-top: 2px solid;
+  border-top-color: black;
+  display: block;
+
+}
+
+h1 {
+  /* background-color: aliceblue; */
+  margin-top: 10px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  color: black;
+}
+
+h4 {
+  padding: 50px;
+
+}
+
+
+
+#table {
+
+  align-items: center;
+  justify-content: center;
+}
+
+table,
+th,
+td {
+
+  color: #f5f0f0;
+  border: 2px solid black;
+}
+
+table {
+
+  background-color: gray;
+  /* width: 100%; */
+  border-collapse: collapse;
+
+  margin-left: 350px;
+  /* display:grid; */
+
+  /* align-items: center; */
+  /* margin-bottom: 20px; */
+
+}
+
+
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #4a4545;
+}
+
+tr:hover {
+  background-color: #494242;
+}
+
+
+
+
+/* Contact Page  */
+.contact {
+  text-align: center;
+  background-color: rgb(39, 39, 38);
+  border: 2px solid rgb(20, 18, 18);
+  margin: 200px 80px;
+  padding: 25px;
+  width: 83%;
+  border-radius: 28px;
+}
+
+.icon a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 20px;
+  display: inline-block;
+}
+
+.icon img {
+  border-radius: 40px;
+  width: 50px;
+  /* Adjust the size of the icons */
+  height: 50px;
 }
